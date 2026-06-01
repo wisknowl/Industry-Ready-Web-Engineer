@@ -233,6 +233,227 @@
             letter-spacing: 0.5px;
         }
 
+        /* Mobile Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 24px;
+            }
+
+            header h3 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            header .subtitle {
+                font-size: 0.9rem;
+            }
+
+            .roadmap-title {
+                font-size: 1.3rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .card h3 {
+                font-size: 1.1rem;
+                padding-right: 70px;
+            }
+
+            .card ul li {
+                font-size: 0.85rem;
+            }
+
+            .philosophy {
+                padding: 16px;
+                border-left: 3px solid var(--accent-cyan);
+            }
+
+            .philosophy h4 {
+                font-size: 1rem;
+            }
+
+            .philosophy p {
+                font-size: 0.9rem;
+            }
+
+            footer {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+            }
+
+            .cta-box {
+                text-align: left;
+                max-width: 100%;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 8px 0;
+            }
+
+            .contact-info h4 {
+                font-size: 1.1rem;
+            }
+
+            .contact-item {
+                font-size: 0.9rem;
+            }
+
+            .badge {
+                font-size: 0.8rem;
+                padding: 6px 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 12px;
+            }
+
+            .container {
+                padding: 16px;
+                border-radius: 8px;
+                margin: 0;
+            }
+
+            header {
+                margin-bottom: 24px;
+                padding-bottom: 20px;
+            }
+
+            header h3 {
+                font-size: 1.5rem;
+                letter-spacing: 0.5px;
+            }
+
+            header p {
+                font-size: 0.9rem;
+            }
+
+            header .subtitle {
+                font-size: 0.85rem;
+            }
+
+            .roadmap-title {
+                font-size: 1.1rem;
+                margin-bottom: 16px;
+            }
+
+            .grid {
+                gap: 12px;
+                margin-bottom: 24px;
+            }
+
+            .card {
+                padding: 16px;
+                border-radius: 6px;
+            }
+
+            .card h3 {
+                font-size: 1rem;
+                margin-bottom: 4px;
+            }
+
+            .card .focus {
+                font-size: 0.85rem;
+                margin-bottom: 12px;
+            }
+
+            .card ul li {
+                font-size: 0.8rem;
+                margin-bottom: 5px;
+                padding-left: 12px;
+            }
+
+            .card .outcome {
+                font-size: 0.8rem;
+                padding-top: 10px;
+            }
+
+            .card-stage {
+                font-size: 0.7rem;
+                top: 10px;
+                right: 12px;
+                padding: 3px 8px;
+            }
+
+            .philosophy {
+                padding: 12px;
+                margin-bottom: 24px;
+                border-radius: 4px;
+            }
+
+            .philosophy h4 {
+                font-size: 0.95rem;
+                margin-bottom: 8px;
+            }
+
+            .philosophy p {
+                font-size: 0.85rem;
+                text-align: left;
+            }
+
+            footer {
+                padding-top: 20px;
+                gap: 16px;
+            }
+
+            .contact-info h4 {
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }
+
+            .contact-item span {
+                width: 70px;
+                font-size: 0.85rem;
+            }
+
+            .contact-item {
+                font-size: 0.85rem;
+            }
+
+            .cta-box p {
+                font-size: 0.85rem;
+                margin-bottom: 8px;
+            }
+
+            .badge {
+                padding: 5px 10px;
+                font-size: 0.75rem;
+            }
+        }
+
+        /* Tablet Responsive Design */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            body {
+                padding: 30px;
+            }
+
+            .container {
+                padding: 32px;
+                max-width: 100%;
+            }
+
+            header h3 {
+                font-size: 2.2rem;
+            }
+
+            .roadmap-title {
+                font-size: 1.4rem;
+            }
+        }
+
         /* Print formatting helper */
         @media print {
             body { padding: 0; background-color: #fff; color: #000; }
@@ -339,4 +560,4 @@
 </div>
 
 </body>
-  </html>
+</html>
